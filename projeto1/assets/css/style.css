@@ -6,19 +6,36 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: black;
-    height: 100px;
     width: 100%;
+    display: flex;
+    height: auto;
 }
-h1 {
+.header-title {
+    align-items: center;
+    padding: 10px 100px;
+}
+header .logo img{
+    width: 60px;
+    margin-right: 20px;
+}
+.section-1 {
+    width: 1024px;
+    height: 120px;
+    padding: 20px 80px;
+    margin: auto;
+    background-color: gainsboro;
+}
+.header-title .title {
     font-size: bold;
-    color:crimson;
+    font-family: Geneva, Verdana, sans-serif;
+    color:rgb(255, 251, 0);   
 }
-h2 {
-    
-    font-size: 18px;
-    color: azure;
+.sub-title {   
+    font-size: 24px;
+    color: rgb(168, 0, 95);
+    margin-bottom: 20px;
+}
+.text-1 {
+    font-size: 16px;
 }
