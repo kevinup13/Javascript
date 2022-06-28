@@ -12,12 +12,14 @@ header {
     height: auto;
 }
 .header-title {
+    justify-content: center;
     align-items: center;
-    padding: 10px 100px;
 }
 header .logo img{
+    justify-content:start;
     width: 60px;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 .section-1 {
     width: 1024px;
