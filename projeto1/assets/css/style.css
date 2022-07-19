@@ -21,17 +21,25 @@ header .logo img{
     margin-right: 20px;
     margin-bottom: 10px;
 }
-.section-1 {
-    width: 1024px;
-    height: 120px;
-    padding: 20px 80px;
-    margin: auto;
-    background-color: gainsboro;
-}
+
 .header-title .title {
     font-size: bold;
     font-family: Geneva, Verdana, sans-serif;
     color:rgb(255, 251, 0);   
+}
+
+main section{
+    display: flex;
+    margin: auto;
+}
+.section {
+    width: 1024px;
+    height: auto;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 80px;
+    background-color: gainsboro;
 }
 .sub-title {   
     font-size: 24px;
@@ -40,4 +48,49 @@ header .logo img{
 }
 .text-1 {
     font-size: 16px;
+}
+.section-2{
+    background-color: rgb(9, 9, 9);
+    width: 1024px;
+    height: auto;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 80px;
+    color: antiquewhite;
+}
+/*-----------------*/
+.menu{
+    display: inline-flex;
+    list-style: none;
+}
+.menu li {
+    margin-right: 20px;
+    padding: 5px 10px;        
+}
+.menu ul, li ul {
+    display: none;        
+}
+.menu li:hover> ul {
+    background-color: red;
+    transition: 0.3s;
+    display: block;  
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons {
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+}
+button {
+    display: block;
+    justify-content: space-between;
+    margin: 5px;
 }

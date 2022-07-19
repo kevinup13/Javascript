@@ -12,3 +12,12 @@ if (hora < 12){
 }
 */
 alert("Bem vindo(a) ao Dominando Javascript!");
+function azul() {
+    document.getElementById("")
+}
+function vermelho(){
+
+}
+function verde(){
+
+}
