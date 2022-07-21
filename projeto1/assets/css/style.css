@@ -49,7 +49,7 @@ main section{
 .text-1 {
     font-size: 16px;
 }
-.section-2{
+#section-menu{
     background-color: rgb(9, 9, 9);
     width: 1024px;
     height: auto;
@@ -86,11 +86,23 @@ main {
 }
 .buttons {
     display: flex;
-    background-color: blue;
+    background-color: rgb(103, 103, 103);
     padding: 20px;
 }
 button {
     display: block;
     justify-content: space-between;
     margin: 5px;
+}
+.azul {
+    background-color: blue;
+    color: antiquewhite;
+}
+.vermelho {
+    background-color: red;
+    color: antiquewhite;
+}
+.verde {
+    background-color: green;
+    color: antiquewhite;
 }
