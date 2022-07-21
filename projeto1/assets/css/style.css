@@ -62,21 +62,32 @@ main section{
 /*-----------------*/
 .menu{
     display: inline-flex;
+    justify-content: space-around;
     list-style: none;
+    cursor: pointer;
+    
+    margin-right: 10px;
 }
 .menu li {
-    margin-right: 20px;
     padding: 5px 10px;        
 }
-.menu ul, li ul {
-    display: none;        
+.menu li:hover {
+    background-color: rgb(168, 0, 95);
+    transition: background .3s;
 }
-.menu li:hover> ul {
-    background-color: red;
-    transition: 0.3s;
-    display: block;  
+.menu li>ul {
+    display: none;
+    background-color: black;   
 }
-
+.menu li:hover>ul{
+    display: block;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin-left: -10px;
+    margin-top: 4px;
+    
+}
 
 main {
     display: flex;
@@ -93,6 +104,11 @@ button {
     display: block;
     justify-content: space-between;
     margin: 5px;
+    border-radius: 10px solid #333;
+}
+button:hover {
+    background-color: rgb(168, 0, 95);
+    transition: background .3s;
 }
 .azul {
     background-color: blue;

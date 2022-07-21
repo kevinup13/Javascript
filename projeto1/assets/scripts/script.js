@@ -12,7 +12,11 @@ function verde(){
     document.getElementById("titulo").classList.add('verde');
 }
 function limpar(){
+    limpar();
+}
+function limpar(){
     document.getElementById("titulo").classList.remove('azul');
     document.getElementById("titulo").classList.remove('vermelho');
     document.getElementById("titulo").classList.remove('verde');
+    document.getElementById("titulo").classList.remove('limpar');
 }
