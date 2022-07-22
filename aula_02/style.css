@@ -1,7 +1,13 @@
 body {
     background: #EEE;
+    margin: 0;
 }
-
+h1 {
+    margin: 0;
+    padding: 10px 20px;
+    position: fixed;
+    color: #fff;
+}
 aside {
     position: fixed;
     top: 0;
@@ -21,7 +27,7 @@ aside {
 #menu-area {
     width: 0;
     height: 100vh;
-    background: #ccc;
+    background: rgb(60, 125, 125);
     overflow-x: hidden;
     overflow-y: auto;
     transition: all ease .5s;
@@ -36,14 +42,36 @@ aside {
 #menu-area li {
     display: block;
     padding: 10px;
-    color: #555;
+    color: #fff;
     cursor: pointer;
 }
 
 #menu-area li:hover {
     background: #DDD;
+    color: chocolate;
 }
 
 .menu-opened {
     width: 200px !important;
+}
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background:radial-gradient(rgb(60, 125, 125),rgb(37, 75, 75)) ;
+    height: 100vh;
+
+}
+.conteudo h2{
+    font-size: 50px;
+    margin: 20px;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+}
+p {
+    font-size: 80px;
+    margin: 20px;
+    color: #fff;
+    font-family: 'Caveat', cursive;
 }
