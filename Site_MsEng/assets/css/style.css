@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.header-01 {
+    background-color:darkslategray;
+    display: flex;
+}
+.title{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Righteous', cursive;
+    color:gainsboro;
+} 
+.menu {
+    background-color:rgb(17, 50, 50);
+}
+.menu ul {
+    width: 1024px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.menu ul li a{
+    display: block;
+    height: 30px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform:capitalize;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    border: 3 px;
+}
+.menu ul li a:hover {
+    background-color: rgb(2, 108, 73);
+    border-bottom: 3px solid chocolate ;
+}
