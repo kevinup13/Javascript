@@ -103,7 +103,7 @@ main {
 .section-buttons {
     background-color: var(--bg-body);
     width: 1024px;
-    height: 350px;
+    height: 280px;
     text-align: left;
     align-items: center;
     flex-direction: column;
@@ -158,4 +158,22 @@ button:hover {
     background-color: green;
     transition: background .4s;
     color: antiquewhite;
+}
+.demo-area{
+    background-color: var(--bg-color);
+    width: 1024px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 80px;
+    color: var(--text-color);
+    
+}
+#demo-1,
+#demo-2 {
+    margin: 10px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
