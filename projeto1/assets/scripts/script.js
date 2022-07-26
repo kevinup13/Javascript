@@ -38,3 +38,12 @@ for(let i in carros){
 }
 html += '<ul>';
 document.getElementById("demo-2").innerHTML = html;
+
+// while LOOP
+let novo = '';
+let c = 1;
+while (c <= 10) {
+    novo += "Número: "+c+"</br>";
+    c++;
+}
+document.getElementById("demo-3").innerHTML = novo;
