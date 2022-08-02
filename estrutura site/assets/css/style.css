@@ -4,7 +4,10 @@
     color: #fff;
 }
 :root {
-    
+    --bg-primary: #212121;
+    --bg-secundary: #2a2a2a;
+    --bg-terciary: #444444;
+    --font-primary: ;
 }
 
 .header {
@@ -16,7 +19,7 @@
     background-color: #212121;
 }
 .header h1 {
-
+    font-family: var(--font-primary);
 }
 /*--------------------*/
 .menu-aside {
