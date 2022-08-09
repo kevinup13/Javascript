@@ -40,26 +40,46 @@ section {
 }
 .area-animais{
     display: flex;
+    justify-content: space-evenly;
 
 }
 .animais {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 5px;
     background-color: rgb(139, 139, 139);
-    width: 400px;
-    height: 250px;
+    width: 45%;
+    height: 300px;
     padding: 5px;
 }
-.animais .imagem {
+.area-img {
+    display: flex;
+    height: 260px;
+    margin-bottom: 2px;
+}
+.area-img .imagem {
     width: 100%;
     
 }
-
+.text-animal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(139, 139, 139);
+    width: 45%;
+    height: 300px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.buttons button{
+    margin-top: 1px;
+}
 .btn {
     width: 100px;
     height: 30px;
-    font-weight: bold;
     margin: 10px 0px;
+    font-weight: bold;
     border: 2px solid rgb(175, 175, 171);
     border-radius: 5px;
     cursor: pointer;

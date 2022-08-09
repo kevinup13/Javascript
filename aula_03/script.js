@@ -20,7 +20,7 @@ function limparVermelho(){
 function limparAzul(){
     document.querySelector("#containerAzul").classList.remove('azul');
 }
-
+/* Essa função faz a troca de imagens através do atributo */
 function trocarImagem(filename){
     document.querySelector('.imagem').setAttribute('src', filename);
 }
