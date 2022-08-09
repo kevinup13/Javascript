@@ -20,14 +20,14 @@
 }
 main {
     background-color: darkslategrey;
-    height: calc(100vh - 60px);
+    height: auto;
 }
 section {
     background-color: rgb(255, 255, 255);
     margin: auto;
     padding: 20px;
     width: 1024px;
-    height: calc(100vh - 60px);
+    height: 100%;
 }
 .container {
     display: flex;
@@ -38,6 +38,23 @@ section {
 .container h3 {
     margin-top: 10px;
 }
+.area-animais{
+    display: flex;
+
+}
+.animais {
+    display: flex;
+    margin-top: 5px;
+    background-color: rgb(139, 139, 139);
+    width: 400px;
+    height: 250px;
+    padding: 5px;
+}
+.animais .imagem {
+    width: 100%;
+    
+}
+
 .btn {
     width: 100px;
     height: 30px;

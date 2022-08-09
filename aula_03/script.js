@@ -13,10 +13,14 @@ function azul (){
 };
 function limparVerde(){
     document.querySelector("#containerVerde").classList.remove('verde');  
-}
+};
 function limparVermelho(){
     document.querySelector("#containerVermelho").classList.remove('vermelho');   
-}
+};
 function limparAzul(){
     document.querySelector("#containerAzul").classList.remove('azul');
+}
+
+function trocarImagem(filename){
+    document.querySelector('.imagem').setAttribute('src', filename);
 }
