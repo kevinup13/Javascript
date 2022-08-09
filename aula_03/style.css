@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100px;
+    height: 60px;
     background-color: black;
 }
 .header h1 {
@@ -20,18 +20,47 @@
 }
 main {
     background-color: darkslategrey;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
 }
 section {
     background-color: rgb(255, 255, 255);
     margin: auto;
+    padding: 20px;
     width: 1024px;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
 }
 .container {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
 }
-
 .container h3 {
+    margin-top: 10px;
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
     margin: 10px 0px;
+    border: 2px solid rgb(175, 175, 171);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(252, 134, 49);
+    border: 2px solid rgb(255, 111, 0);
+    color: #fff;
+}
+.verde {
+    background-color: green;
+    color: #ece9e9;
+}
+.vermelho {
+    background-color: rgb(181, 43, 43);
+    color: #ece9e9;
+}
+.azul {
+    background-color: rgb(22, 124, 179);
+    color: #ece9e9;
 }
