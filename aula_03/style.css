@@ -29,6 +29,29 @@ section {
     width: 1024px;
     height: 100%;
 }
+.lineUm,
+.lineDois,
+.lineTres,
+.line {
+    width: 50%;
+    background: darkslategrey;
+    border: 0;
+}
+.line-01 {
+    width: 50%;
+    background: rgb(246, 246, 246);
+    border: 0;
+}
+.line-02 {
+    width: 50%;
+    background: rgb(246, 246, 246);
+    border: 0;
+}
+.line-03 {
+    width: 50%;
+    background: rgb(246, 246, 246);
+    border: 0;
+}
 .container {
     display: flex;
     flex-direction: column;
