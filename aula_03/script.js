@@ -40,3 +40,7 @@ function lineDois(){
 function lineTres(){
     document.querySelector(".lineTres").classList.add("line-03");
 }
+/* função para trocar o texto do pet */
+function cachorro(){
+    document.getElementById("trocarAnimal").style.display = "none"
+};

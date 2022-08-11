@@ -63,45 +63,59 @@ section {
 }
 .area-animais{
     display: flex;
-    justify-content: space-evenly;
+    height: 320px;
+    text-align: center;
+    background-color: pink;
+    padding: 10px;
 
 }
-.animais {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5px;
-    background-color: rgb(139, 139, 139);
-    width: 45%;
-    height: 300px;
-    padding: 5px;
-}
-.area-img {
-    display: flex;
+.area-img{
     height: 260px;
-    margin-bottom: 2px;
 }
 .area-img .imagem {
     width: 100%;
+    height: 260px;
+}
+.animais {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
     
 }
-.text-animal {
+.container-animal {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(139, 139, 139);
-    width: 45%;
-    height: 300px;
-    margin-top: 5px;
+    width: 50%;
+}
+.text-cachorro{
+    display:block;
+}
+.area-text {
+    display: flex;
+    text-align: left;
     padding: 10px;
 }
-.buttons button{
-    margin-top: 1px;
+   
+.buttons{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    
+    flex-direction: row;
+}
+.buttons-animais{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    flex-direction: row;
 }
 .btn {
+    display: flex;
+    align-items: center;
     width: 100px;
     height: 30px;
-    margin: 10px 0px;
+    margin: 10px;
+    justify-content: center;
     font-weight: bold;
     border: 2px solid rgb(175, 175, 171);
     border-radius: 5px;
