@@ -1,32 +1,16 @@
-let dia = 5;
-
-let diaNome = '';
-
-switch(dia){
-    case 1:
-    diaNome = "Segunda-feira";
-    break;
-    case 2:
-    diaNome = "Terça-feira";
-    break;
-    case 3:
-    diaNome = "Quarta-feira";
-    break;
-    case 4:
-    diaNome = "Quinta-feira";
-    break;
-    case 5:
-    diaNome = "Sexta-feira";
-    break;
-    case 6:
-    diaNome = "Sábado-feira";
-    break;
-    case 7:
-    diaNome = "Domingo-feira";
-    break;
+function subirTela(){
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
 }
-document.getElementById("dia").innerHTML = "Hoje é: "+diaNome;
-
-function menu(){
-    
+function btnscroll(){
+    if(window.scrollY === 0){
+        //ocutar o botão
+        document.querySelector('.scrollbutton').style.display = 'none';
+    }else {
+        // mostrar o btn
+        document.querySelector('.scrollbutton').style.display = 'block';
+    }
 }
+window.addEventListener('scroll', btnscroll);
