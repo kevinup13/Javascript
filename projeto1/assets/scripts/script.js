@@ -93,3 +93,18 @@ if (validacao) {
 } else {
     console.log('Acesso NEGADO!');
 }
+
+/* função normal (padrão) 
+function somar(x, y){
+    return x + y;
+}
+*/
+/* Arrow Function */
+/* const somar = (x, y) => {
+    return x + y;
+} */
+
+/*  Função mais resumida */
+const somar = (x, y) => x + y;
+
+console.log(somar(10, 5));
