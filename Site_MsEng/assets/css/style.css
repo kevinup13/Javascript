@@ -2,42 +2,48 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 .header-01 {
-    background-color:darkslategray;
+    background-color: darkslategray;
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100px;
     padding-left: 100px;
 }
-.title{
+
+.title {
     font-family: 'Righteous', cursive;
-    color:gainsboro;
-} 
+    color: gainsboro;
+}
+
 .menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(17, 50, 50);
-    width: 100vw;
+    background-color: rgb(17, 50, 50);
+    width: 100%;
 }
+
 .menu ul {
     display: flex;
     justify-content: center;
     width: 1024px;
     list-style: none;
 }
-.menu ul li a{
+
+.menu ul li a {
     display: block;
     padding: 5px 10px;
     text-decoration: none;
     color: gainsboro;
-    text-transform:capitalize;
+    text-transform: capitalize;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 14px;
     border: 2px solid rgb(17, 50, 50);
 }
-.menu ul li a:hover {    
+
+.menu ul li a:hover {
     background-color: rgb(2, 108, 73);
     transition: background .3s;
     border: 2px solid rgb(2, 108, 73);
@@ -48,49 +54,57 @@
     height: calc(100vh - 100px);
     background-color: #333;
     background-image: url('../image/image-1.png');
-    background-size:cover;
+    background-size: cover;
     background-position: bottom;
     overflow: hidden;
 }
+
 .banner .sliders {
     min-width: 1000vw;
     height: 100%;
 }
+
 .banner .slide {
     width: 100vw;
     height: 100%;
     display: inline-block;
-    background-color: rgba(0,0,0, .8);
+    background-color: rgba(0, 0, 0, .8);
 }
+
 .banner .slidearea {
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
-    color:  gainsboro;
+    color: gainsboro;
     flex-direction: column;
 }
+
 .banner h1 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 50px;
 }
+
 .banner h1 span {
     color: rgb(2, 108, 73);
 }
+
 .banner h2 {
     text-transform: uppercase;
     margin-top: 20px;
 }
+
 .banner .sliders-pointers {
-    width: 100vw;
+    width: 100%;
     height: 20px;
-    position:absolute;
+    position: absolute;
     margin-top: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .banner .pointer {
     width: 15px;
     height: 15px;
@@ -100,6 +114,7 @@
     margin-right: 5px;
     cursor: pointer;
 }
+
 /*---------------*/
 .section-servicos {
     display: flex;
@@ -111,6 +126,7 @@
     height: 400px;
     background-color: aliceblue;
 }
+
 .section-servicos h1 {
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -121,8 +137,9 @@
 
 .servicos {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
+
 .servico {
     background-color: black;
     color: gainsboro;
@@ -130,16 +147,29 @@
     height: 200px;
     padding: 20px;
 }
+
 .scrollbutton {
-    width: 30px;
+    width: 60px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 8px;
     background-color: darkslategray;
     position: fixed;
     right: 20px;
     bottom: 20px;
-    z-index: 999;
+    z-index: 5;
     cursor: pointer;
     display: none;
+    transition: 0.5s;
 }
 
+.scrollbutton span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    color: gainsboro;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+}

@@ -1,21 +1,16 @@
-function subirTela(){
+function subirTela() {
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
     });
 }
-function btnscroll(){
-    if(window.scrollY === 0){
+function btnscroll() {
+    if (window.scrollY === 0) {
         //ocutar o botão
         document.querySelector('.scrollbutton').style.display = 'none';
-    }else {
+    } else {
         // mostrar o btn
         document.querySelector('.scrollbutton').style.display = 'block';
     }
 }
 window.addEventListener('scroll', btnscroll);
-
-function soma (n1,n2){
-    return n1 + n2;
-}
-alert(soma(5,10));
