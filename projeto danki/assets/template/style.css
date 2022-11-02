@@ -14,7 +14,7 @@
 }
 
 section.main {
-    background-image: url('images/HERO\ BACKGROUND.svg');
+    background-image: url('../images/HERO\ BACKGROUND.svg');
     background-position: center;
     background-size: cover;
     min-height: 700px;
