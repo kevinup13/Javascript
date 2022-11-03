@@ -129,7 +129,7 @@ section.porque-nos>.center>p {
 }
 
 section.cta {
-    background-image: url('images/BANNER-IMG.png');
+    background-image: url('../images/BANNER-IMG.png');
     background-size: cover;
     background-position: center;
     padding: 20px 10px;
@@ -397,6 +397,14 @@ footer {
 
     section.main .itens-menu {
         display: none;
+    }
+
+    section.porque-nos>.center>h2 {
+        font-size: 40px;
+    }
+
+    .lista-beneficios h1 {
+        font-size: 35px;
     }
 
     .diferenciais {
