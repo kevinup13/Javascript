@@ -101,7 +101,7 @@ header {
 
 /*-----------container - slides--------------*/
 .container {
-    background-image: url(/assets/images/bg.jpg);
+    background-image: url(/assets/images/bg-site.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -587,17 +587,13 @@ input[type=submit] {
 
 
 /*-------------------footer---------------*/
-footer {
+.footer {
     background-color: rgb(6, 6, 18);
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 150px;
     padding-top: 20px;
-}
-
-footer .logo {
-    margin-bottom: 10px;
 }
 
 .menu-footer ul,
@@ -790,10 +786,7 @@ footer .copy {
         height: 180px;
     }
 
-
-
-    .area-contatos {
-        width: 100%;
+    .contact {
         height: auto;
     }
 
@@ -804,22 +797,20 @@ footer .copy {
         height: auto;
     }
 
-    footer {
-        display: flex;
-        height: auto;
-    }
-
-    footer .menu-footer {
-        display: flex;
+    .area-contatos .left-side {
         width: 100%;
-        height: auto;
-        margin: auto;
+        margin-bottom: 20px;
     }
 
-    footer .menu-footer ul {
+    .footer {
+        display: flex;
+        height: auto;
+    }
+
+    .menu-footer ul {
+        display: flex;
         flex-direction: column;
     }
-
 
 
 
